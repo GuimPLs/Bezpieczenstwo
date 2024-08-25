@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="zarzad:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/zarzad_jar</output-path>
+    <root id="archive" name="zarzad.jar">
+      <element id="module-output" name="zarzad" />
+    </root>
+  </artifact>
+</component>

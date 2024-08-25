@@ -1,0 +1,22 @@
+name: Bezpieczenstwo
+version: 1.0
+main: pl.guimpl.bezpieczenstwo.Bezpieczenstwo
+commands:
+  report:
+    description: Zgłoś problem
+    usage: /report <powód>
+  reports:
+    description: Przeglądaj zgłoszenia
+    usage: /reports
+    permission: bezpieczenstwo.viewreports
+  resolve:
+    description: Oznacz zgłoszenie jako rozwiązane
+    usage: /resolve <numer>
+    permission: bezpieczenstwo.resolve
+permissions:
+  bezpieczenstwo.viewreports:
+    description: Pozwól przeglądać zgłoszenia
+    default: op
+  bezpieczenstwo.resolve:
+    description: Pozwól oznaczać zgłoszenia jako rozwiązane
+    default: op
